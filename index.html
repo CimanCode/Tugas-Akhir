@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <body>
@@ -14,19 +15,19 @@
     <nav id="navbar" class="sticky top-0">
         <div class="container mx-auto lg:flex lg:items-center lg:justify-between lg:py-[23px] py-4 px-4 lg:px-0">
             <div class="flex justify-between items-center">
-                <h1 class="font-[700] text-[18px] lg:text-[36px] leading-[43px] text-[#0D5EBA]">BAYSIDE FIN JEWELRY</h1>
+                <h1 class="font-[700] text-[18px] md:text-[24px] lg:text-[36px] leading-[43px] text-[#0D5EBA]">BAYSIDE FIN JEWELRY</h1>
                 <button data-collapse-toggle="navbar-defaults" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-defaults" aria-expanded="false">
                     <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </button>
             </div>
             <div id="navbar-defaults" class="hidden lg:block bg-white/20 w-auto lg:bg-transparent">
-                <div class="flex flex-col lg:flex-row text-center items-center gap-[24px] lg:gap-[55px]">
-                    <ul class="flex flex-col justify-between lg:flex-row gap-[16px] lg:gap-[63px]">
-                        <li class="font-[700] text leading-[19px] text-[#343434]"><a href="#">Home</a></li>
-                        <li class="font-[700] text leading-[19px] text-[#343434]"><a href="#">Shop</a></li>
-                        <li class="font-[700] text leading-[19px] text-[#343434]"><a href="#">Service</a></li>
-                        <li class="font-[700] text leading-[19px] text-[#343434]"><a href="#">About</a></li>
-                        <li class="font-[700] text leading-[19px] text-[#343434]"><a href="#">Contact</a></li>
+                <div class="flex flex-col md:justify-center md:flex-row lg:flex-row text-center items-center gap-[24px] lg:gap-[55px]">
+                    <ul class="flex flex-col md:flex-row justify-between lg:flex-row gap-[16px] md:gap-[63px] lg:gap-[63px]">
+                        <li class="font-[700] text leading-[19px] text-[#343434] hover:font-bold active:scale-90"><a href="#" >Home</a></li>
+                        <li class="font-[700] text leading-[19px] text-[#343434] hover:font-bold active:scale-90"><a href="#">Shop</a></li>
+                        <li class="font-[700] text leading-[19px] text-[#343434] hover:font-bold active:scale-90"><a href="#">Service</a></li>
+                        <li class="font-[700] text leading-[19px] text-[#343434] hover:font-bold active:scale-90"><a href="#">About</a></li>
+                        <li class="font-[700] text leading-[19px] text-[#343434] hover:font-bold active:scale-90"><a href="#">Contact</a></li>
                     </ul>
                     <img src="./css/assets/Mask Group.png" alt="Keranjang" class="w-fit lg:w-auto">
                 </div>
@@ -38,54 +39,62 @@
     </section>
     <section id="shop">
         <div class="container mx-auto">
-            <h1 class="font-[900] text-[18px] lg:text-[36px] leading-[43px] text-[#002D69] text-center lg:flex lg:text-start">SHOP BY JEWELRY TYPE</h1>
-                <div class=" flex flex-wrap lg:flex-nowrap justify-center lg:justify-start mt-[49.82px] gap-[16px] lg:gap-[38px]">
-                    <div class=" flex flex-col text-center">
-                        <img src="./css/assets/anting (2).svg" alt="Anting" class="lg:rounded-xl lg:w-full w-[120px]">
-                        <p class="mt-[17.82px] font-[500] text-[18px] leading-[22px] text-[#002D69] uppercase">Earrings</p>
+            <h1 class="font-[900] text-[18px] md:text-[24px] lg:text-[36px] leading-[43px] text-[#002D69] text-center lg:flex lg:text-start">SHOP BY JEWELRY TYPE</h1>
+                <div class=" flex flex-wrap lg:flex-nowrap justify-center lg:justify-start mt-[20px] lg:mt-[49.82px] gap-[16px] md:gap-[25px] lg:gap-[38px]">
+                    <div class=" flex flex-col text-center" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="./css/assets/anting (2).svg" alt="Anting" class="lg:rounded-xl lg:w-full w-[160px] md:w-[300px] shadow shadow-transparent
+                        hover:scale-110 duration-200 hover:shadow-xl hover:rounded-xl">
+                        <p class="mt-[17.82px] font-[500] text-[16px] md:text-[18px] lg:text-[18px] leading-[22px] text-[#002D69] uppercase">Earrings</p>
                     </div>
-                    <div class="flex flex-col text-center">
-                        <img src="./css/assets/Tas.svg" alt="Tas" class="lg:rounded-xl lg:w-full w-[120px]">
-                        <p class="mt-[17.82px] font-[500] text-[18px] leading-[22px] text-[#002D69] uppercase">necklaces</p>
+                    <div class="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="./css/assets/Tas.svg" alt="Tas" class="lg:rounded-xl lg:w-full w-[160px] md:w-[300px] 
+                        hover:scale-110 duration-200 hover:shadow-xl hover:rounded-xl">
+                        <p class="mt-[17.82px] font-[500] text-[16px] md:text-[18px] lg:text-[18px] leading-[22px] text-[#002D69] uppercase">necklaces</p>
                     </div>
-                    <div class="flex flex-col text-center">
-                        <img src="./css/assets/Gelang.svg" alt="Gelang" class="lg:rounded-xl lg:w-full w-[120px]">
-                        <p class="mt-[17.82px] font-[500] text-[18px] leading-[22px] text-[#002D69] uppercase">bracelets</p>
+                    <div class="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <img src="./css/assets/Gelang.svg" alt="Gelang" class="lg:rounded-xl lg:w-full w-[160px] md:w-[300px] 
+                        hover:scale-110 duration-200 hover:shadow-xl hover:rounded-xl">
+                        <p class="mt-[17.82px] font-[500] text-[16px] md:text-[18px] lg:text-[18px] leading-[22px] text-[#002D69] uppercase">bracelets</p>
                     </div>
-                    <div class="flex flex-col text-center">
-                        <img src="./css/assets/Cin-Cin.svg" alt="Cin-cin" class="lg:rounded-xl lg:w-full w-[120px]">
-                        <p class="mt-[17.82px] font-[500] text-[18px] leading-[22px] text-[#002D69] uppercase">all Rings</p>
+                    <div class="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                        <img src="./css/assets/Cin-Cin.svg" alt="Cin-cin" class="lg:rounded-xl lg:w-full w-[160px] md:w-[300px] 
+                        hover:scale-110 duration-200 hover:shadow-xl hover:rounded-xl">
+                        <p class="mt-[17.82px] font-[500] text-[16px] md:text-[18px] lg:text-[18px] leading-[22px] text-[#002D69] uppercase">all Rings</p>
                     </div>
-                    <div class="flex flex-col text-center">
-                        <img src="./css/assets/berlian.svg" alt="Berlian" class="lg:rounded-xl lg:w-full w-[120px] ml-[25px] lg:ml-0">
-                        <p class="mt-[17.82px] font-[500] text-[18px] leading-[22px] text-[#002D69] uppercase">engagement rings
+                    <div class="flex flex-col text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                        <img src="./css/assets/berlian.svg" alt="Berlian" class="lg:rounded-xl lg:w-full w-[160px] md:w-[300px] ml-[10px] lg:ml-0 
+                        hover:scale-110 duration-200 hover:shadow-xl hover:rounded-xl">
+                        <p class="mt-[17.82px] font-[500] text-[16px] md:text-[18px] lg:text-[18px] leading-[22px] text-[#002D69] uppercase">engagement rings
                         </p>
                     </div>
                 </div>
         </div>
     </section>
-    <section id="creating" class="bg-[#002D69] flex mt-[70px] w-[1448px] mx-auto">
-        <div class="container flex flex-col-reverse lg:flex-row">
-            <div class="container mx-auto pr-[20px] lg:px-0 w-[200px] flex-col mb-24 lg:mt-[140px] lg:w-[686px] lg:mb-[190px]">
-                <h1 class="font-[900] text-[27px] lg:text-[54px] leading-[65px] text-[#FFFFFF] lg:mb-[14px] uppercase">Hand Crafted fine pieces.</h1>
-                <p class="font-[700] text-[14px] lg:text-[28px] leading-[34px] text-[#FFFFFF] lg:mb-[37px]">We also firmly believed that our customers deserved more choices, straightforward information and legendary service.</p>
-                <button class="bg-[#FFFFFF] shadow-xl rounded-[4px] p-2 lg:p-4 lg:w-[172px] text-center">
-                    <p class="font-[700] text-[8px] lg:text-[16px] leading-[19px] text-[#002D69] uppercase">learn more</p>
+    <section id="creating" class="bg-[#002D69] flex mt-[70px] mx-auto">
+        <div class="container mx-auto flex flex-col-reverse md:gap-[12px] md:flex-row lg:flex-row">
+            <div class="z-20 w-[400px] flex-col mb-24 mt-[20px] md:mt-[120px] lg:mt-[140px] md:w-full lg:w-full lg:mb-[190px]">
+                <h1 class="font-[900] text-[24px] md:text-[35px] lg:text-[54px] lg:leading-[65px] text-[#FFFFFF] lg:mb-[14px] uppercase">Hand Crafted fine pieces.</h1>
+                <p class="font-[700] text-[14px] md:text-[20px] lg:text-[28px] leading-[34px] text-[#FFFFFF] lg:mb-[37px]">We also firmly believed that our customers deserved more choices, straightforward information and legendary service.</p>
+                <button class="bg-[#FFFFFF] shadow-xl rounded-[4px] p-2 md:p-4 md:w-[172px] lg:p-4 lg:w-[172px] text-center mt-6 lg:mt-0 hover:shadow-2xl active:scale-90">
+                    <p class="font-[700] text-[12px] md:text-[16px] lg:text-[16px] leading-[19px] text-[#002D69] uppercase">learn more</p>
                 </button>
             </div>
-            <img src="./css/assets/Create.svg" alt="Create" class="w-fit lg:w-full">
+            <img src="./css/assets/Create.svg" alt="Create" class="w-[420px] lg:w-full">
         </div>
     </section>
     <section id="model">
         <div class="container mx-auto mt-[50px] px-[24px] lg:px-0 lg:text-start text-center">
-            <h1 class=" font-[900] text-[18px] lg:text-[36px] leading-[43px] text-[#002D69] mb-[25px] lg:mb-[51px] lg:flex lg:text-start text-center">OUR LATEST JEWELRY</h1>
-            <div class="flex justify-between flex-wrap lg:flex-nowrap lg:flex-row gap-4 lg:gap-0 mb-[16px] lg:mb-[51px]">
-                <img src="./css/assets/Item1.svg" alt="item1" class="lg:w-fit w-[160px]">
-                <img src="./css/assets/Item2.svg" alt="item2" class="lg:w-fit w-[160px]">
-                <img src="./css/assets/Item3.svg" alt="item3" class="lg:w-fit w-[160px] ml-[90px] lg:ml-0">
+            <h1 class=" font-[900] text-[18px] md:text-[28px] lg:text-[36px] leading-[43px] text-[#002D69] mb-[12px] lg:mb-[51px] lg:flex lg:text-start text-center">OUR LATEST JEWELRY</h1>
+            <div class="flex justify-between flex-wrap md:flex-nowrap lg:flex-nowrap lg:flex-row gap-4 lg:gap-0 mb-[16px] lg:mb-[51px]">
+                <img src="./css/assets/Item1.svg" alt="item1" class="lg:w-fit md:w-[350px] hover:scale-110"
+                 data-aos="fade-up" data-aos-duration="1000">
+                <img src="./css/assets/Item2.svg" alt="item2" class="lg:w-fit md:w-[350px] hover:scale-110"
+                data-aos="fade-down" data-aos-duration="1000">
+                <img src="./css/assets/Item3.svg" alt="item3" class="lg:w-fit md:w-[350px] md:ml-[175px] lg:ml-0 hover:scale-110 duration-200"
+                data-aos="fade-up" data-aos-duration="1000">
             </div>
             <div class="flex justify-center">
-                <button class="bg-[#002D69] rounded-[4px] py-[12px] px-[17px] w-[170.33px] text-center">
+                <button class="bg-[#002D69] rounded-[4px] py-[12px] px-[17px] w-[170.33px] text-center active:scale-90" data-aos="zoom-in" data-aos-duration="1000">
                     <p class="font-[700] text-[16px] leading-[19px] text-[#FFFFFF] uppercase">viwe galery</p>
                 </button>
             </div>
@@ -93,23 +102,23 @@
     </section>
     <section id="testimony">
         <div class="container px-4 lg:px-0 mx-auto mt-[50px]">
-            <h1 class="font-[900] text-[18px] lg:text-[36px] leading-[43px] text-[#002D69] uppercase lg:mb-[44px] text-center lg:flex lg:text-start">customers reviews</h1>
-                <div class="flex flex-col lg:flex-row gap-8">
-                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px]">
+            <h1 class="font-[900] text-[18px] md:text-[28px] lg:text-[36px] leading-[43px] text-[#002D69] uppercase md:mb-[44px] lg:mb-[44px] text-center lg:flex lg:text-start">customers reviews</h1>
+                <div class="flex flex-col md:flex-row lg:flex-row gap-8">
+                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px] hover:scale-125 duration-200 hover:shadow-xl">
                         <img src="./css/assets/logo.svg" alt="Logo" class="mb-[23px]">
                         <div class="text-center">
                             <p class="font-[400] text-[18px] leading-[25px] text-[#343434] mb-[31px] italic">Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
                             <p class="font-[400] text-[18px] leading-[25px] text-[#000000] italic">- Nico Jones</p>
                         </div>
                     </div>
-                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px]">
+                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px] hover:scale-125 duration-200 hover:shadow-xl">
                         <img src="./css/assets/logo.svg" alt="Logo" class="mb-[23px]">
                         <div class="text-center">
                             <p class="font-[400] text-[18px] leading-[25px] text-[#343434] mb-[31px] italic">Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
                             <p class="font-[400] text-[18px] leading-[25px] text-[#000000] italic">- Nico Jones</p>
                         </div>
                     </div>
-                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px]">
+                    <div class="flex-col bg-[#FFFFFF] border border-[#DADADA] px-[15px] py-[20px] hover:scale-125 duration-200 hover:shadow-xl">
                         <img src="./css/assets/logo.svg" alt="Logo" class="mb-[24px]">
                         <div class="text-center">
                             <p class="font-[400] text-[18px] leading-[25px] text-[#343434] mb-[31px] italic">Great variety of cuts and amazing customer service. Helped to find the perfect ring and helped me to personalize it a little more.</p>
@@ -120,44 +129,44 @@
         </div>
     </section>
     <section id="service">
-        <div class="container px-4 lg:px-0 mx-auto mt-[78px] mb-[111px]">
-            <h1 class="font-[900] text-[36px] leading-[43px] text-[#002D69] mb-[51px]">OUR SERVICE</h1>
-            <div class="flex flex-wrap lg:flex-nowrap gap-8 mb-[51px]">
-                <div class="flex-col text-center">
-                    <img src="./css/assets/img1.svg" alt="item1" class="mb-[24px]">
-                    <p class="font-[500] text-[24px] leading-[29px] text-[#002D69] uppercase">Jewelry Repair</p>
+        <div class="container mx-auto px-4 lg:px-0  mt-[78px] mb-[111px]">
+            <h1 class="font-[900] text-[18px] md:text-[28px] lg:text-[36px] leading-[43px] text-[#002D69] mb-[25px] lg:mb-[51px] text-center lg:flex lg:text-start">OUR SERVICE</h1>
+            <div class="flex flex-wrap lg:flex-nowrap gap-8 mb-[25px] lg:mb-[51px]">
+                <div class="flex-col text-center ">
+                    <img src="./css/assets/img1.svg" alt="item1" class="mb-[24px] lg:w-fit md:w-[350px] hover:shadow-xl hover:scale-105 duration-200">
+                    <p class="font-[500] text-[20px] lg:text-[24px] leading-[29px] text-[#002D69] uppercase">Jewelry Repair</p>
                 </div>
                 <div class="flex-col text-center">
-                    <img src="./css/assets/img2.svg" alt="item2" class="mb-[24px]">
-                    <p class="font-[500] text-[24px] leading-[29px] text-[#002D69] uppercase">ring sizing</p>
+                    <img src="./css/assets/img2.svg" alt="item2" class="mb-[24px] lg:w-fit md:w-[350px] hover:shadow-xl hover:scale-105 duration-200">
+                    <p class="font-[500] text-[20px] lg:text-[24px] leading-[29px] text-[#002D69] uppercase">ring sizing</p>
                 </div>
-                <div class="flex-col text-center">
-                    <img src="./css/assets/img3.svg" alt="item3" class="mb-[24px]">
-                    <p class="font-[500] text-[24px] leading-[29px] text-[#002D69] uppercase">jewelry polishing</p>
+                <div class="flex-col text-center md:ml-[190px] lg:ml-0">
+                    <img src="./css/assets/img3.svg" alt="item3" class="mb-[24px] lg:w-fit md:w-[350px] hover:shadow-xl hover:scale-105 duration-200">
+                    <p class="font-[500] text-[20px] lg:text-[24px] leading-[29px] text-[#002D69] uppercase">jewelry polishing</p>
                 </div>
             </div>
-            <div class="flex justify-center">
-                <button class="bg-[#002D69] rounded-[4px] py-[12px] px-[17px] w-[170.33px] text-center">
-                    <p class="font-[700] text-[16px] leading-[19px] text-[#FFFFFF] uppercase">learn more</p>
+            <div class="flex justify-center ">
+                <button class="bg-[#002D69] rounded-[4px] py-[12px] px-[17px] w-[170.33px] text-center active:scale-90">
+                    <p class="font-[700] text-[15px] md:text-[16px] lg:text-[16px] leading-[19px] text-[#FFFFFF] uppercase">learn more</p>
                 </button>
             </div>
         </div>
     </section>
     <section id="footer" class="bg-[#B8E0EF]">
         <div class="container px-4 lg:px-0 mx auto py-[59px] flex justify-center">
-            <div class="flex flex-wrap lg:flex-nowrap bg-[#FFFFFF] shadow-xl rounded-[4px] text-center justify-center items-center w-[943px]">
-                <img src="./css/assets/Rectangle.svg" alt="Rectangle">
+            <div class="flex flex-col md:flex-row lg:flex-row bg-[#FFFFFF] shadow-xl rounded-[4px] text-center justify-center items-center w-[943px] pb-[14px] md:pb-0 lg:pb-0">
+                <img src="./css/assets/Rectangle.svg" alt="Rectangle" class="md:w-[370px] lg:w-full">
                 <div class="flex-col ml-[59px] mr-[59px]">
                     <h1 class="font-[700] text-[25px] leading-[42px] text-[#002D69] uppercase mb-2">stay in touch?</h1>
-                    <p class="font-[400] text-[16px] leading-[22-x] text-[#343434] mb-[35px]">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
-                    <button class="py-[12px] px-[17px] text-center font-[700] text-[16px] leading-[19px] text-[#FFFFFF] uppercase bg-[#002D69] rounded-[4px]">
+                    <p class="font-[400] text-[16px] leading-[22-x] text-[#343434] mb-[15px] lg:mb-[35px]">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                    <button class="py-[12px] px-[17px] text-center font-[700] text-[16px] leading-[19px] text-[#FFFFFF] uppercase bg-[#002D69] rounded-[4px] active:scale-90">
                         subscribe
                     </button>
                 </div>
             </div>
         </div>
-        <div class="container mx-auto flex justify-center gap-[125px] py-[59px]">
-            <div>
+        <div class="container px-6 lg:px-0 mx-auto flex flex-wrap lg:flex-nowrap justify-center gap-[38px] md:gap-[100px] lg:gap-[125px] py-[59px]">
+            <div> 
                 <p class="font-[700] text-[21px] leading-[25px] text-[#343434] mb-[24px]">Product</p>
                 <ul>
                     <li class="font-[700] text leading-[32px] text-[#53585F]"><a href="#">Privacy policy</a></li>
@@ -181,16 +190,28 @@
             </div>
         </div>
         <div class="container mx-auto py-[35px] border-t-2 border-[rgba(146,159,168,0.35)]">
-            <div class="flex justify-between">
-                <p>© Blue Diamond Jewelry™  2021</p>
-                <div class="flex gap-2">
-                    <img src="./css/assets/Facebook.png" alt="facebook">
-                    <img src="./css/assets/Instagram.png" alt="facebook">
-                    <img src="./css/assets/Pinterest.png" alt="facebook">
-                    <img src="./css/assets/Yelp.png" alt="facebook">
+            <div class="flex flex-col md:flex-row lg:flex-row text-center justify-between">
+                <p>© Blue Diamond Jewelry™ 2021</p>
+                <div class="flex justify-center lg:justify-start mt-[10px] lg:mt gap-2">
+                    <button class="active:scale-90">
+                        <img src="./css/assets/Facebook.png" alt="facebook">
+                    </button>
+                    <button class="active:scale-90">
+                        <img src="./css/assets/Instagram.png" alt="facebook">
+                    </button>
+                    <button class="active:scale-90">
+                        <img src="./css/assets/Pinterest.png" alt="facebook">
+                    </button>
+                    <button class="active:scale-90">
+                        <img src="./css/assets/Yelp.png" alt="facebook">
+                    </button>
                 </div>
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
