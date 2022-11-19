@@ -1546,6 +1546,10 @@ html{
     flex-wrap: nowrap;
   }
 
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
   .xl\:bg-yellow-300 {
     --tw-bg-opacity: 1;
     background-color: rgb(253 224 71 / var(--tw-bg-opacity));
